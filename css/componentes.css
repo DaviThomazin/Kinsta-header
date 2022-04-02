@@ -8,15 +8,28 @@
 .search-button {
     display: flex;
     padding-left: 60px;
+    padding-right: 10px;
     color: #252525;
     align-self: center;
 }
 
-.button-demo {
-    display: flex;
-    padding-left: 20px;
+.button-demo a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     font-size: 12px;
     align-self: center;
-    color: rgb(73, 0, 207);
-    padding: 10px 10px;
+    color: rgb(86, 17, 212);
+    padding: 10px 20px;
+    border: 2px solid rgb(86, 17, 212);
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.button-demo a:hover {
+    background-color: rgb(98, 54, 218);
+    color: #ffffff;
+}
+
+.button-demo {
+    padding-left: 20px;
 }
