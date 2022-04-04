@@ -2,6 +2,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.logo {
+    display: flex;
+}
+
 .under {
     display: inline-block;
     color: #252525;

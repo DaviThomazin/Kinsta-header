@@ -1,3 +1,7 @@
+*   {  
+    box-sizing: border-box;
+}
+
 .container {
     max-width: 960px;
     box-sizing: border-box;
@@ -7,10 +11,15 @@
 
 .search-button {
     display: flex;
-    padding-left: 60px;
-    padding-right: 10px;
     color: #252525;
     align-self: center;
+    transition: .1s;
+    padding: 6px;
+}
+
+.search-button:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+    border-radius: 50%;
 }
 
 .button-demo a {
@@ -32,4 +41,12 @@
 
 .button-demo {
     padding-left: 20px;
+}
+
+.margin-right {
+    margin-right: 60px;
+}
+
+.margin-left {
+    margin-left: 10px;
 }
